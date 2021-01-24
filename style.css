@@ -1,0 +1,104 @@
+/*меню начало*/
+.menu { 
+   margin: 0;
+   padding: 0;
+   height: auto;
+   list-style-type: none;
+   background-color: #ceccca;
+   text-align: center;
+   }
+.menu li {
+   margin: 9px 11px 9px 0;
+   padding: 2px 14px 4px;
+   background-color: #a8ad6e;
+   border: 2px solid #737375;
+   border-radius: 1px 20px;
+   display: inline-block;
+   transition: all 0.7s ease 0s;
+   }
+.menu a {
+  color: #0e0d0d;
+  text-decoration: none;
+  }
+.menu li:hover {
+  background-color: rgb(196, 170, 170);
+  border-radius: 20px 1px;
+  }
+/*оформление корзины*/
+.btn-cart {
+   margin: 1%;
+   position: relative;
+   display: inline-block;
+   width: 11em;
+   height: 2.5em;
+   line-height: 2.5em;
+   vertical-align: middle;
+   text-align: center;
+   text-decoration: none;
+   text-shadow: 0 1px 1px #777;
+   color: rgb(211, 208, 208);
+   outline: none;
+   border: 2px solid #3f552d;
+   border-radius: 7px;
+   box-shadow: 0 0 0 65px rgba(0,0,0,0) inset, .1em .1em .2em rgb(93, 160, 31);
+   background: linear-gradient(#9ed868, #46751a 46%, #275f22 54%, #234219);
+ }
+ button:active {
+   top: .1em;
+   left: .1em;
+   box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+ }
+
+ /*контейнер*/
+ .main {
+   width: 1260px;
+   margin: 30px; 
+   background: rgb(247, 241, 241);
+   height: max-content;
+   opacity: 97%;
+}
+
+.mainContainer {
+   width: 1240px;
+   margin:2%;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 8px;
+  
+}
+
+ /*товар*/
+ .product-item {
+   margin: 20px; 
+   text-align: center;
+   text-decoration: none;
+   transition: 1s;
+   width: auto;
+   height: 300px;
+   border: rgb(3, 3, 3) 1px solid;
+   border-radius: 18px;
+}
+
+.product-item:hover {
+   transform: scale(1.07);
+}
+ .product-title {
+   font-size: 18px;
+   color: rgb(8, 8, 8);
+   text-align: center;
+   margin: 12px 0 6px 0;
+}
+
+ .product-price {
+   font-size: 18px;
+   font-family: sans-serif;
+   color: rgb(8, 8, 8);
+   text-align: center;
+   margin: 12px 0 6px 0;
+}
+ .product-img {
+   border: #ceccca;
+}
+
+/*footer*/
+
